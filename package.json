@@ -1,0 +1,19 @@
+{
+  "name": "play-js",
+  "version": "1.0.0",
+  "description": "The front-end for our music project application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielMulitauopele/play-js.git"
+  },
+  "author": "Mike McKee, Daniel Mulitauopele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielMulitauopele/play-js/issues"
+  },
+  "homepage": "https://github.com/DanielMulitauopele/play-js#readme"
+}
