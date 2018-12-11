@@ -1,8 +1,22 @@
 html, body {
   height: 100%;
+  width: 100%;
 }
 
 body {
-  background-image: url("/giphy (1).gif");
-  background-size: cover;
+  background-image: url("/transparent.gif");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: bottom right -100px;
+  background-color: #FFFFF3;
+}
+
+header {
+  width: 100%;
+  font-family: 'Cabin', sans-serif;
+}
+
+.button {
+  border: 1px;
+
 }
