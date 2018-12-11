@@ -4,16 +4,19 @@ html, body {
 }
 
 body {
-  background-image: url("/transparent.gif");
-  background-repeat: no-repeat;
-  background-size: 80%;
-  background-position: bottom right -100px;
   background-color: #FFFFF3;
 }
 
 header {
   width: 100%;
+  position: fixed;
+  top: 20px;
+}
+
+header h1 {
   font-family: 'Cabin', sans-serif;
+  font-size: 50vw;
+  margin: 0;
 }
 
 .button {
