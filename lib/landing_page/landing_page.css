@@ -1,0 +1,8 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("/giphy (1).gif");
+  background-size: cover;
+}
