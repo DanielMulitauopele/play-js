@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   devtool: 'inline-source-map',
   entry: {
-    main: "./lib/index.js",
+    main: "./lib/landing_page/landing_page.js",
     test: "mocha-loader!./test/index-test.js"
   },
   output: {
