@@ -20,13 +20,14 @@ header {
   height: 100%;
   margin: 0 7rem 0;
   display: grid;
-  grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr 1fr 1fr;
 }
 
 .command {
   text-align: center;
   font-size: 3rem;
-  margin-top: 6rem;
+  margin-top: 18rem;
+  margin-bottom: 0;
   font-family: 'Nanum Gothic', sans-serif;
 }
 
@@ -50,4 +51,26 @@ input {
 
 .button-card {
   display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  color: #F9B5AC;
+  width: 85%;
+  height: 6rem;
+  border: solid 7px;
+  border-color: #B8D4E3;
+  border-radius: 50px;
+  background-color: #FFFFF3;
+  display: block;
+  margin: 3.5rem;
+  font-size: 3.5rem;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 550;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
