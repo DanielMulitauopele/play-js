@@ -6,7 +6,7 @@ html, body {
 }
 
 header {
-  height: 14rem;
+  height: 12rem;
   width: 100%;
   background-color: #FFFFF3;
   justify-content: center;
@@ -18,9 +18,9 @@ h1 {
   color: #F9B5AC;
   text-align: center;
   margin: 0;
-  padding: 4rem;
+  padding: 2rem;
   font-family: 'Cabin', sans-serif;
-  font-size: 7rem;
+  font-size: 6rem;
 }
 
 .container {
