@@ -15,10 +15,10 @@ header {
 }
 
 h1 {
-  color: #F9B5AC;
+  color: #9BF3F0;
   text-align: center;
   margin: 0;
-  padding: 2rem;
+  padding: 3rem;
   font-family: 'Cabin', sans-serif;
   font-size: 6rem;
 }
@@ -46,7 +46,7 @@ nav {
 }
 
 nav a {
-  color: #031F40;
+  color: #DAFFED;
   text-align: center;
   display: block;
 }
