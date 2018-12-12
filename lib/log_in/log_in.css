@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #FFFFF3;
+}
+
+header {
+  color: #FFFFF3;
+  height: 6rem;
+  padding: 4rem;
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  background-color: #B8D4E3;
+}
+
+.container {
+  height: 100%;
+  margin: 0 7rem 0;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+}
+
+.command {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 6rem;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+input {
+  display: block;
+}
+
+.button-card {
+  display: block;
+}
