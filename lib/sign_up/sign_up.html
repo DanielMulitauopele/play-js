@@ -2,26 +2,33 @@
 <html>
   <head>
     <title>Sign Up | Play</title>
+
+    <link rel="stylesheet" href="./sign_up.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Nanum+Gothic" rel="stylesheet">
   </head>
   <body>
     <header>
-      Play!
+      play!
     </header>
     <div class="container">
-      <p class="command">Sign up to get started on a musical adventure, no strings attached (unless classical is your thing).</p>
+      <p class="command">Sign up for some raccoon tunes!</p>
 
       <section class="inputs">
         <input type="text" required minlength="4" maxlength="8" size="10" placeholder="Email">
         <input type="text" required minlength="4" maxlength="8" size="10" placeholder="Password">
+        <input type="text" required minlength="4" maxlength="8" size="10" placeholder="Confirm Password">
       </section>
 
       <section class="button-card">
-        <a href="/lib/favorites/favorites.html" class="button">Log In</a>
-        <a href="/lib/favorites/favorites.html" class="inverse-button">Sign in with Google</a>
+        <a href="./lib/favorites/favorites.html"><button class="button" type="button">Sign Up</button></a>
+        <a href="./lib/favorites/favorites.html"><button class="reverse-button" type="button">Sign Up with Google</button></a>
       </section>
+      <img class="raccoon" src="/transparent-tired.gif" alt="typing-raccoon">
 
-      <p class="question">Already have an account?</p>
-      <a href="../log_in/log_in.html">Log in here.</a>
+      <section class="review">
+        <p class="question">Already have an account?</p>
+        <a class="review-link" href="../log_in/log_in.html">Log in here.</a>
+      </section>
     </div>
   </body>
 </html>
