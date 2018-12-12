@@ -15,7 +15,7 @@ header {
 }
 
 h1 {
-  color: #9BF3F0;
+  color: #DAFFED;
   text-align: center;
   margin: 0;
   padding: 3rem;
@@ -29,8 +29,46 @@ h1 {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 90%;
-  width: auto;
+  width: 100%;
   display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 1fr .5fr 6fr;
+}
+
+.search-field {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.songs-header {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+}
+
+.songs-header h2 {
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  color: #B8D4E3;
+}
+
+input {
+  display: block;
+  color: #B8D4E3;
+  border: 4px solid #B8D4E3;
+  border-radius: 50px;
+  width: 85%;
+  height: 4.5rem;
+  font-size: 2rem;
+  font-family: 'Nanum Gothic', sans-serif;
+  display: block;
+  margin: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
 }
 
 nav {
@@ -56,7 +94,5 @@ i {
 }
 
 a.active {
-  color: #FF1053;
-  border-color: #FF1053;
-  border-width: 5px;
+  color: #F9B5AC;
 }
