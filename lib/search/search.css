@@ -89,6 +89,10 @@ input {
   background-color: #B8D4E3;
 }
 
+button:focus {
+  outline: none;
+}
+
 .searchy {
   margin: 0;
 }
@@ -113,8 +117,7 @@ input {
   display: block;
   padding: 1rem 0;
   margin: 0;
-  text-align: center;
-  font-size: 2rem;
+  text-align: left;
   z-index: 1;
 }
 
@@ -124,13 +127,15 @@ input {
   padding: 2rem;
   grid-template-columns: 1fr;
   grid-template-rows: auto-fit;
-  margin: 0 0 1rem 0;
+  margin: 0;
   font-family: 'Nanum Gothic', sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   border-bottom: 1px solid #F9B5AC;
 }
 
-.artist_name {
+.artist_name a {
+  color: #9BF3F0;
+  font-weight: 800;
   text-decoration: none;
   text-align: left;
   margin: 0;
