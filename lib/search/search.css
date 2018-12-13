@@ -23,16 +23,25 @@ h1 {
 }
 
 .container {
-  z-index: 2;
-  background-image: url("./gradient.png");
-  background-color: #FFFFF3;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  z-index: 1;
   height: 90%;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
   grid-template-rows: 1.5fr 80px 1fr 6fr;
+  position: absolute;
+}
+
+.image-mist {
+  z-index: 2;
+  grid-column-start: 1;
+  grid-column-end: end;
+  grid-row-start: 1;
+  grid-row-end: end;
+  background-image: url("./gradient.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .search-field {
@@ -41,6 +50,7 @@ h1 {
   grid-row-start: 2;
   grid-row-end: 3;
   padding: 0;
+  z-index: 1;
 }
 
 input {
