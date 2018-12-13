@@ -33,4 +33,4 @@ This project was developed, tested, and published by [Mike McKee](https://github
 <img src="/favorites.png" title="favorites-page" width="200">
 <img src="/playlists.png" title="playlists-page" width="200">
 <img src="/modal.png" title="modal-page" width="200">
-<img src="/show-page.png" title="show-page" width="200">
+<img src="/show.png" title="show-page" width="200">
