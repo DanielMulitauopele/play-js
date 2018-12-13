@@ -31,18 +31,17 @@ Desktop/Ipad iterations, through media queries, will be developed and added in t
 
 ## Description/Purpose
 
-This project is a back-end service that drives a separate front-end application.
+This project is a front-end application that is derived from a separate back-end application.
 It includes a database service that tracks songs that users have favorited
 through the front-end application. Users can also create playlists and add
 their favorite songs to a playlist. Song metadata comes from the [MusixMatch API](https://developer.musixmatch.com/).
 
 ## System Requirements
 
-This application requires several technologies to be installed toy our local
+This application requires several technologies to be installed to our local
 machine. The following are required:
 
-1. [NodeJS](https://nodejs.org/en/)
-2. [PostgreSQL](https://www.postgresql.org/)
+* [jQuery](https://jquery.com/)
 
 ## Setup
 
