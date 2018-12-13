@@ -1,35 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Favorites | Play</title>
+    <title>search | Play</title>
 
-    <link rel="stylesheet" href="./favorites.css">
+    <link rel="stylesheet" href="./search.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Cabin|Nanum+Gothic" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1>favorites.</h1>
+      <h1>search.</h1>
+      <section class="search-field">
+        <input type="text" id="artist-search-name" placeholder="got an artist in mind?"
+        ><button class="search-button" id="artist-search" type="button" name="search"><i class="searchy fas fa-search fa-5x fa-fw"></i></button>
+      </section>
 
       <section class="songs-header">
-        <h2>songs you can't live without</h2>
+        <h2>browse available artists</h2>
       </section>
     </header>
-
-    <div id="playlist-modal" class="modal">
-        <div class="modal-content">
-          <div class="modal-body">
-            <h1>select playlist</h1>
-            <div class="modal-text" id="playlist-msg" class="name"></div>
-            <form id="select-playlist">
-              <select id="playlists-selection">
-              </select>
-              <input type="hidden" id="playlist-song-id">
-              <input type="submit" class="select-button" value="Select Playlist">
-            </form>
-          </div>
-        </div>
-    </div>
 
     <section class="container">
       <section class="image-mist">
@@ -44,6 +33,7 @@
       <a id="playlists" href="../playlists/playlists.html"><i class="fas fa-music fa-5x fa-fw"></i></a>
     </nav>
 
-    <script src="./favorites.bundle.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="./search.bundle.js"></script>
   </body>
 </html>

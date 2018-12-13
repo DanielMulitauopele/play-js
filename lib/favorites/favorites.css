@@ -54,7 +54,7 @@ h1 {
 .image-mist {
   height: 70%;
   width: 100%;
-  z-index: 2;
+  z-index: 1;
   grid-column-start: 1;
   grid-column-end: end;
   grid-row-start: 1;
@@ -78,7 +78,7 @@ h1 {
 }
 
 .listed-song {
-  height: 7rem;
+  height: 10rem;
   z-index: 1;
   display: grid;
   grid-template-columns: 30% 20% 20% 20% 10%;
@@ -147,4 +147,102 @@ i {
 
 a.active {
   color: #F9B5AC;
+}
+
+.modal-text {
+  font-size: 3rem;
+  padding: 15px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+#playlist-msg {
+  text-align: center;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(255,255,255,0.8);
+}
+
+.modal-header {
+  padding: 10px 16px;
+  background-color: #5cb85c;
+  color: black;
+  background-color: #FFFFF3;
+}
+
+.modal-body {
+  padding: 20px 16px;
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFF3;
+}
+
+select {
+  vertical-align: top;
+  margin: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: #B8D4E3;
+  border: 4px solid #B8D4E3;
+  border-radius: 50px;
+  width: 40%;
+  height: 4.5rem;
+  font-size: 2.5rem;
+  font-family: 'Nanum Gothic', sans-serif;
+  padding: 0;
+  padding-left: 2rem;
+  text-align: center;
+}
+
+.select-button {
+  font-size: 2.5rem;
+  color: #DAFFED;
+  vertical-align: top;
+  margin: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  height: 80px;
+  width: 45%;
+  border: 4px solid #B8D4E3;
+  border-radius: 50px;
+  background-color: #B8D4E3;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.modal-content {
+  position: relative;
+  margin: 15% auto;
+  padding: 0;
+  width: 75%;
+  height: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+.modal h2 {
+  font-family: 'Nanum Gothic', sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #B8D4E3;
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px; opacity: 0
+  }
+  to {
+    top: 0; opacity: 1
+  }
 }
