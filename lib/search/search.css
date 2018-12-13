@@ -129,7 +129,7 @@ button:focus {
   z-index: 1;
   display: grid;
   padding: 2rem;
-  grid-template-columns: 1fr;
+  grid-template-columns: 80% 20%;
   grid-template-rows: auto-fit;
   margin: 0;
   font-family: 'Nanum Gothic', sans-serif;
@@ -139,6 +139,12 @@ button:focus {
 
 .artist_name {
   margin: 0 0;
+}
+
+.favorite-button {
+  grid-column-start: 2;
+  margin: 0 0 0 6rem;
+  color: #F9B5AC;
 }
 
 .artist-select {
