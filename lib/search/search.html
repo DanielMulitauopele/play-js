@@ -9,14 +9,14 @@
   </head>
   <body>
     <header>
-      <h1>play!</h1>
+      <h1>search.</h1>
       <section class="search-field">
-        <input type="text" placeholder="What song are you looking for?"
-        ><button class="search-button" type="button" name="search"><i class="searchy fas fa-search fa-5x fa-fw"></i></button>
+        <input type="text" id="artist-search-name" placeholder="got an artist in mind?"
+        ><button class="search-button" id="artist-search" type="button" name="search"><i class="searchy fas fa-search fa-5x fa-fw"></i></button>
       </section>
 
       <section class="songs-header">
-        <h2>Browse Available Songs</h2>
+        <h2>browse available artists</h2>
       </section>
     </header>
 
@@ -25,12 +25,6 @@
       </section>
 
       <section class="fetch-data">
-        <div class="listed-song">
-          <p class="name">Bohemian Rhapsody</p>
-          <p class="artist_name">Queen</p>
-          <p class="genre">Rock</p>
-          <p class="song_rating">100%</p>
-        </div>
       </section>
     </section>
     <nav>
@@ -40,6 +34,6 @@
     </nav>
 
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-    <script src="./search.js"></script>
+    <script src="./search.bundle.js"></script>
   </body>
 </html>

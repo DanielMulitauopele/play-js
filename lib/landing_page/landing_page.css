@@ -7,7 +7,7 @@ html, body {
 
 body {
   background-color: #FFFFF3;
-  background-image: url("/play_landing_page.png");
+  background-image: url("./play_landing_page.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: fixed;
