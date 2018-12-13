@@ -26,8 +26,8 @@ This project was developed, tested, and published by [Mike McKee](https://github
 
 ## Screenshots
 
-<img src="/landing.png" title="landing-page" width="200">
-<img src="/log_in.png" title="log-in-page" width="200">
+<img src="/landing.png" title="landing-page" width="200"><
+img src="/log_in.png" title="log-in-page" width="200">
 <img src="/sign_up.png" title="sign-up-page" width="200">
 <img src="/search.png" title="search-page" width="200">
 <img src="/favorites.png" title="favorites-page" width="200">
