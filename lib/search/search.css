@@ -164,6 +164,7 @@ button:focus {
 }
 
 .artist_name {
+  text-align: left;
   margin: 0 0;
 }
 
