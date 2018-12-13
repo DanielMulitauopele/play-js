@@ -6,12 +6,16 @@ html, body {
 }
 
 header {
-  height: 12rem;
+  height: 30rem;
   width: 100%;
   background-color: #FFFFF3;
   position: fixed;
   z-index: 3;
-  top: 0; 
+  top: 0;
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 50% 20% 30%;
+  margin-bottom: 2rem;
 }
 
 h1 {
@@ -21,26 +25,26 @@ h1 {
   padding: 3rem;
   font-family: 'Cabin', sans-serif;
   font-size: 6rem;
+  grid-column-start: 2;
 }
 
 .container {
   z-index: 1;
-  height: 90%;
+  height: 65%;
   width: 100%;
-  margin: 12rem auto 0;
+  margin: 35rem auto 11rem;
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
-  grid-template-rows: 1.5fr 80px 1fr 6fr;
+  grid-template-rows: 4rem;
 }
 
 .image-mist {
-  height: 90%;
+  height: 60%;
   width: 100%;
   z-index: 2;
   grid-column-start: 1;
   grid-column-end: end;
   grid-row-start: 1;
-  margin-top: -12rem;
   grid-row-end: end;
   background-image: url("./gradient.png");
   background-size: 100% 100%;
@@ -90,7 +94,6 @@ input {
 }
 
 .songs-header {
-  margin-top: 5rem;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
@@ -106,7 +109,7 @@ input {
 .fetch-data {
   grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 4;
+  grid-row-start: 1;
   display: block;
   padding: 1rem 0;
   margin: 0;
@@ -143,7 +146,7 @@ input {
 
 nav {
   width: 100%;
-  height: 11%;
+  height: 11rem;
   position: fixed;
   bottom: 0;
   display: grid;
