@@ -34,14 +34,18 @@ h1 {
 }
 
 .image-mist {
+  height: 90%;
+  width: 100%;
   z-index: 2;
   grid-column-start: 1;
   grid-column-end: end;
   grid-row-start: 1;
+  margin-top: -12rem;
   grid-row-end: end;
   background-image: url("./gradient.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  position: fixed;
 }
 
 .search-field {
