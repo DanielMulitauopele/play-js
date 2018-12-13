@@ -41,7 +41,7 @@ h1 {
 .image-mist {
   height: 60%;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   grid-column-start: 1;
   grid-column-end: end;
   grid-row-start: 1;
@@ -154,7 +154,7 @@ button:focus {
 }
 
 .artist_name {
-  text-align: center;
+  text-align: left;
   margin: 0;
 }
 
