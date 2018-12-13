@@ -76,6 +76,10 @@ input {
   padding-left: 2rem;
 }
 
+input:focus {
+  outline: none;
+}
+
 .search-button {
   color: #DAFFED;
   vertical-align: top;
