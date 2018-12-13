@@ -80,7 +80,7 @@ h1 {
 .listed-song {
   z-index: 1;
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
   grid-template-rows: 2.5rem;
   margin: 0 0 1.5rem 0;
   font-family: 'Nanum Gothic', sans-serif;
@@ -93,12 +93,7 @@ h1 {
   margin: 0;
 }
 
-.artist_name {
-  text-align: center;
-  margin: 0;
-}
-
-.song_rating, .genre {
+.song_count {
   text-align: right;
   margin: 0;
 }
