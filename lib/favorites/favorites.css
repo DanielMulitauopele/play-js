@@ -78,7 +78,7 @@ h1 {
 }
 
 .listed-song {
-  height: 7rem;
+  height: 10rem;
   z-index: 1;
   display: grid;
   grid-template-columns: 30% 20% 20% 20% 10%;
@@ -153,6 +153,9 @@ a.active {
   font-size: 3rem;
   padding: 15px;
   font-family: 'Nanum Gothic', sans-serif;
+}
+
+#playlist-msg {
   text-align: center;
 }
 
@@ -184,30 +187,37 @@ a.active {
 
 select {
   vertical-align: top;
-  margin: 0;
-  display: inline;
+  margin: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   color: #B8D4E3;
   border: 4px solid #B8D4E3;
-  border-radius: 50px 0 0 50px;
-  width: 30%;
+  border-radius: 50px;
+  width: 40%;
   height: 4.5rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: 'Nanum Gothic', sans-serif;
   padding: 0;
   padding-left: 2rem;
+  text-align: center;
 }
 
 .select-button {
+  font-size: 2.5rem;
   color: #DAFFED;
   vertical-align: top;
-  margin: 0;
+  margin: 2rem;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
-  display: inline;
+  display: block;
   height: 80px;
-  width: 29.5%;
+  width: 45%;
   border: 4px solid #B8D4E3;
-  border-radius: 0 50px 50px 0;
+  border-radius: 50px;
   background-color: #B8D4E3;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .modal-content {
@@ -235,4 +245,4 @@ select {
   to {
     top: 0; opacity: 1
   }
-} 
+}
