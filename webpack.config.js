@@ -4,11 +4,12 @@ module.exports = {
   devtool: 'inline-source-map',
   entry: {
     main: "./lib/landing_page/landing_page.js",
+    search: "./lib/search/search.js",
     test: "mocha-loader!./test/index-test.js"
   },
   output: {
     path: __dirname,
-    filename: "dist/[name].bundle.js"
+    filename: "lib/[name]/[name].bundle.js"
   },
   mode: 'development',
   module: {
