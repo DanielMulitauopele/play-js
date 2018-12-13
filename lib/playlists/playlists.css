@@ -108,7 +108,7 @@ button:focus {
 }
 
 .image-mist {
-  height: 70%;
+  height: 60%;
   width: 100%;
   z-index: 1;
   grid-column-start: 1;
