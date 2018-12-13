@@ -25,3 +25,12 @@ machine. The following are required:
 This project was developed, tested, and published by [Mike McKee](https://github.com/mikecm1141/) and [Daniel Mulitauopele](https://github.com/DanielMulitauopele/).
 
 ## Screenshots
+
+<img src="/landing.png" title="landing-page" width="250">
+<img src="/log_in.png" title="log-in-page" width="250">
+<img src="/sign_up.png" title="sign-up-page" width="250">
+<img src="/search.png" title="search-page" width="250">
+<img src="/favorites.png" title="favorites-page" width="250">
+<img src="/playlists.png" title="playlists-page" width="250">
+<img src="/lib/modal.png" title="modal-page" width="250">
+<img src="/lib/show-page.png" title="show-page" width="250">
