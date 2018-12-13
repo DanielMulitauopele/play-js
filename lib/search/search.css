@@ -41,7 +41,7 @@ h1 {
 .image-mist {
   height: 60%;
   width: 100%;
-  z-index: 2;
+  z-index: 1;
   grid-column-start: 1;
   grid-column-end: end;
   grid-row-start: 1;
@@ -140,7 +140,7 @@ button:focus {
 .listed-song {
   z-index: 1;
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr 1fr;
+  grid-template-columns: 3fr 1fr 0.5fr 0.1fr;
   grid-template-rows: 2.5rem;
   margin: 0 0 1.5rem 0;
   font-family: 'Nanum Gothic', sans-serif;
@@ -168,7 +168,7 @@ button:focus {
 }
 
 .favorite-button {
-  grid-column-start: 2;
+  grid-column-start: 4;
   margin: 0 0 0 6rem;
   color: #F9B5AC;
 }
