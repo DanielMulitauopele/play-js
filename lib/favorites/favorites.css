@@ -1,0 +1,130 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #FFFFF3;
+}
+
+header {
+  height: 25rem;
+  width: 100%;
+  background-color: #FFFFF3;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 50% 50%;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: #DAFFED;
+  text-align: center;
+  margin: 0;
+  padding: 3rem;
+  font-family: 'Cabin', sans-serif;
+  font-size: 6rem;
+  grid-column-start: 2;
+}
+
+.songs-header {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+}
+
+.songs-header h2 {
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  color: #B8D4E3;
+}
+
+.container {
+  z-index: 1;
+  height: 75%;
+  width: 100%;
+  margin: 25rem auto 11rem;
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 4rem;
+}
+
+.image-mist {
+  height: 70%;
+  width: 100%;
+  z-index: 2;
+  grid-column-start: 1;
+  grid-column-end: end;
+  grid-row-start: 1;
+  grid-row-end: end;
+  background-image: url("./gradient.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+.fetch-data {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  display: block;
+  padding: 1rem 0;
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+  z-index: 1;
+}
+
+.listed-song {
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+  grid-template-rows: 2.5rem;
+  margin: 0 0 1.5rem 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #F9B5AC;
+}
+
+.name {
+  text-align: left;
+  margin: 0;
+}
+
+.artist_name {
+  text-align: center;
+  margin: 0;
+}
+
+.song_rating, .genre {
+  text-align: right;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  height: 11rem;
+  position: fixed;
+  bottom: 0;
+  display: grid;
+  list-style-type: none;
+  background-color: #B8D4E3;
+  grid-template-columns: 1fr 1fr 1fr;
+  z-index: 2;
+}
+
+nav a {
+  color: #DAFFED;
+  text-align: center;
+  display: block;
+}
+
+i {
+  margin: 2.5rem;
+}
+
+a.active {
+  color: #F9B5AC;
+}
