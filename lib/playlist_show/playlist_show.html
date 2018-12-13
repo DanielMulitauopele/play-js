@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Playlists | Play</title>
+    <title>search | Play</title>
 
-    <link rel="stylesheet" href="./playlists.css">
+    <link rel="stylesheet" href="./search.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Cabin|Nanum+Gothic" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1>playlists.</h1>
-
-      <section class="songs-header">
-        <h2>jams for every occasion</h2>
+      <h1>search.</h1>
+      <section class="search-field">
+        <input type="text" id="artist-search-name" placeholder="got an artist in mind?"
+        ><button class="search-button" id="artist-search" type="button" name="search"><i class="searchy fas fa-search fa-5x fa-fw"></i></button>
       </section>
 
-      <section class="search-field">
-        <input type="text" id="artist-search-name" placeholder="create your new playlist!"
-        ><button class="search-button" id="artist-search" type="button" name="search"><i class="searchy fas fa-music fa-5x fa-fw"></i></button>
+      <section class="songs-header">
+        <h2>browse available artists</h2>
       </section>
     </header>
 
@@ -25,14 +24,7 @@
       <section class="image-mist">
       </section>
 
-
       <section class="fetch-data">
-          <div class="listed-playlist">
-            <a class="playlist" href="../playlist_show/playlist_show.html">
-              <p class="name">Roadtrip Blast-off</p>
-            < p class="song_count">Song Count: 57</p>
-            </a>
-          </div>
       </section>
     </section>
     <nav>
@@ -42,6 +34,6 @@
     </nav>
 
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-    <script src="./playlists.js"></script>
+    <script src="./search.bundle.js"></script>
   </body>
 </html>
