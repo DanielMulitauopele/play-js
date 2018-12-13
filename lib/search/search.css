@@ -129,16 +129,20 @@ button:focus {
   grid-template-rows: auto-fit;
   margin: 0;
   font-family: 'Nanum Gothic', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   border-bottom: 1px solid #F9B5AC;
 }
 
-.artist_name a {
-  color: #9BF3F0;
+.artist_name {
+  margin: 0 0;
+}
+
+.artist-select {
   font-weight: 800;
   text-decoration: none;
   text-align: left;
-  margin: 0;
+  color: #9BF3F0;
+  height: 2rem;
 }
 
 nav {
