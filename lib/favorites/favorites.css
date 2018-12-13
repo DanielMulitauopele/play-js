@@ -47,7 +47,7 @@ h1 {
   width: 100%;
   margin: 25rem auto 11rem;
   display: grid;
-  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-columns: .5fr 6fr .5fr;
   grid-template-rows: 4rem;
 }
 
@@ -78,29 +78,49 @@ h1 {
 }
 
 .listed-song {
+  height: 7rem;
   z-index: 1;
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr 1fr;
-  grid-template-rows: 2.5rem;
-  margin: 0 0 1.5rem 0;
+  grid-template-columns: 30% 20% 20% 20% 10%;
+  grid-template-rows: 7rem;
+  margin: 0 0 3rem 0;
   font-family: 'Nanum Gothic', sans-serif;
-  font-size: 1.6rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #9BF3F0;
   border-bottom: 1px solid #F9B5AC;
 }
 
 .name {
+  height: 7rem;
   text-align: left;
   margin: 0;
 }
 
 .artist_name {
+  height: 7rem;
   text-align: center;
   margin: 0;
 }
 
 .song_rating, .genre {
+  height: 7rem;
   text-align: right;
   margin: 0;
+}
+
+.favorite-button {
+  grid-column-start: 4;
+  margin: 0 0 0 4rem;
+  color: #F9B5AC;
+  font-size: 4rem;
+}
+
+.playlist-button {
+  grid-column-start: 5;
+  margin: 0 0 0 2rem;
+  color: #F9B5AC;
+  font-size: 4rem;
 }
 
 nav {
