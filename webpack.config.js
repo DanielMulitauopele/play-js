@@ -4,7 +4,8 @@ module.exports = {
   devtool: 'inline-source-map',
   entry: {
     search: "./lib/search/search.js",
-    playlists: "./lib/playlists/playlists.js"
+    playlists: "./lib/playlists/playlists.js",
+    favorites: "./lib/favorites/favorites.js"
   },
   output: {
     path: __dirname,
