@@ -6,7 +6,7 @@ html, body {
 }
 
 header {
-  height: 25rem;
+  height: 30rem;
   width: 100%;
   background-color: #FFFFF3;
   position: fixed;
@@ -14,7 +14,7 @@ header {
   top: 0;
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 50% 10rem 30%;
   margin-bottom: 2rem;
 }
 
@@ -41,13 +41,61 @@ h1 {
   color: #B8D4E3;
 }
 
+.search-field {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  padding: 0;
+  z-index: 1;
+}
+
+input {
+  vertical-align: top;
+  margin: 0;
+  display: inline;
+  color: #B8D4E3;
+  border: 4px solid #B8D4E3;
+  border-radius: 50px 0 0 50px;
+  width: 65%;
+  height: 4.5rem;
+  font-size: 2rem;
+  font-family: 'Nanum Gothic', sans-serif;
+  padding: 0;
+  padding-left: 2rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search-button {
+  color: #DAFFED;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  height: 80px;
+  width: 29.5%;
+  border: 4px solid #B8D4E3;
+  border-radius: 0 50px 50px 0;
+  background-color: #B8D4E3;
+}
+
+button:focus {
+  outline: none;
+}
+
+.searchy {
+  margin: 0;
+}
+
 .container {
   z-index: 1;
   height: 75%;
   width: 100%;
-  margin: 25rem auto 11rem;
+  margin: 35rem auto 11rem;
   display: grid;
-  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-columns: .7fr 6fr .7fr;
   grid-template-rows: 4rem;
 }
 
@@ -77,14 +125,16 @@ h1 {
   z-index: 1;
 }
 
-.listed-song {
+.listed-playlist {
   z-index: 1;
   display: grid;
   grid-template-columns: 2fr 2fr;
-  grid-template-rows: 2.5rem;
+  grid-template-rows: 5rem;
   margin: 0 0 1.5rem 0;
   font-family: 'Nanum Gothic', sans-serif;
-  font-size: 1.6rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #9BF3F0;
   border-bottom: 1px solid #F9B5AC;
 }
 
