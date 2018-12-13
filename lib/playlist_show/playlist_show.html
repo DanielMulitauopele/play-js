@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>search | Play</title>
+    <title>playlist | Play</title>
 
-    <link rel="stylesheet" href="./search.css">
+    <link rel="stylesheet" href="./playlist_show.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Cabin|Nanum+Gothic" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1>search.</h1>
-      <section class="search-field">
-        <input type="text" id="artist-search-name" placeholder="got an artist in mind?"
-        ><button class="search-button" id="artist-search" type="button" name="search"><i class="searchy fas fa-search fa-5x fa-fw"></i></button>
-      </section>
+      <h1>view.</h1>
 
       <section class="songs-header">
-        <h2>browse available artists</h2>
+        <h2 id="playlist-header-name"></h2>
       </section>
     </header>
 
@@ -33,7 +29,6 @@
       <a id="playlists" href="../playlists/playlists.html"><i class="fas fa-music fa-5x fa-fw"></i></a>
     </nav>
 
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-    <script src="./search.bundle.js"></script>
+    <script src="./playlist_show.bundle.js"></script>
   </body>
 </html>

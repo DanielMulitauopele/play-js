@@ -28,6 +28,14 @@ h1 {
   grid-column-start: 2;
 }
 
+.playlist-select {
+  font-weight: 800;
+  text-decoration: none;
+  text-align: left;
+  color: #9BF3F0;
+  height: 2rem;
+}
+
 .songs-header {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -102,7 +110,7 @@ button:focus {
 .image-mist {
   height: 70%;
   width: 100%;
-  z-index: 2;
+  z-index: 1;
   grid-column-start: 1;
   grid-column-end: end;
   grid-row-start: 1;
