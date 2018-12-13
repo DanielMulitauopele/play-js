@@ -3,6 +3,7 @@ const path = require('path');
 module.exports = {
   devtool: 'inline-source-map',
   entry: {
+    favorites: "./lib/favorites/favorites.js",
     search: "./lib/search/search.js"
   },
   output: {
