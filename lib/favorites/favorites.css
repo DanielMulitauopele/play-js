@@ -47,7 +47,7 @@ h1 {
   width: 100%;
   margin: 25rem auto 11rem;
   display: grid;
-  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-columns: .5fr 6fr .5fr;
   grid-template-rows: 4rem;
 }
 
@@ -83,7 +83,7 @@ h1 {
   display: grid;
   grid-template-columns: 30% 20% 20% 20% 10%;
   grid-template-rows: 7rem;
-  margin: 0 0 1rem 0;
+  margin: 0 0 3rem 0;
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 2.5rem;
   font-weight: 800;
@@ -99,7 +99,7 @@ h1 {
 
 .artist_name {
   height: 7rem;
-  text-align: left;
+  text-align: center;
   margin: 0;
 }
 
