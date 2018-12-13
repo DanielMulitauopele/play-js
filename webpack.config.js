@@ -5,7 +5,8 @@ module.exports = {
   entry: {
     search: "./lib/search/search.js",
     playlists: "./lib/playlists/playlists.js",
-    favorites: "./lib/favorites/favorites.js"
+    favorites: "./lib/favorites/favorites.js",
+    playlist_show: "./lib/playlist_show/playlist_show.js"
   },
   output: {
     path: __dirname,
